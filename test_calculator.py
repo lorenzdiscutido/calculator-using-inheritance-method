@@ -22,6 +22,7 @@ while True:
         quotient = LC.divide(num1, num2)
     elif option == "5":
         convert = LC.conversion(num1)
+        convert1 = LC.conversion(num2)
     else:
         print("Invalid choice. Please enter another one")
 

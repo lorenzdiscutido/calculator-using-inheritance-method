@@ -4,10 +4,11 @@ class lorenz_calculator(Calculator):
     pass
     def conversion(self, num1):
         print("")
-        print("you chose conversion")
+        print("You chose conversion!")
         try:
             inches = num1/2.54
-            print(inches)
+            print("Your number in inches is:", inches, "in")
         except:
             print("Invalid. Please try again")
-            return inches
+    
+    def divide(self)
