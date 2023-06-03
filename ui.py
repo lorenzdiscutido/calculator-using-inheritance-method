@@ -6,6 +6,7 @@ class user_interface():
             print("Type 2 if you want to use Subtraction(-)")
             print("Type 3 if you want to use Multiplication(x)")
             print("Type 4 if you want to use Division(/)")
+            print("Type 5 if you want to convert from cm to inches")
         
         def operation(self):
             option = input("Please select an operation:")
